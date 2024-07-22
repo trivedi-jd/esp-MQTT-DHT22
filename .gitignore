@@ -1,1 +1,3 @@
-build/
+build/*
+dependencies.lock
+sdkconfig
