@@ -1,4 +1,7 @@
-# ESP32 MQTT DHT22  
+| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-P4 | ESP32-S2 | ESP32-S3 |
+| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+
+# ESP MQTT DHT22  
 
 This projects connects to the broker URI selected using `idf.py menuconfig` (using mqtt tcp transport), reads temperature and humidity data from DHT22 sensor and publishes the data in JSON format to the MQTT topic `temp-humidity/mqtt/esp32/publish`.
 
